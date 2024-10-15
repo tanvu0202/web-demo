@@ -1,5 +1,5 @@
  * {   box-sizing: border-box; } /* Style the body */ 
- body {   font-family: Arial,"YourCustomFont",sans-serif;   padding: 10px;   background: #e9d8f4;   margin: 0; } /* Header/logo Title */ 
+ body {   font-family: Arial;   padding: 10px;   background: #e9d8f4;   margin: 0; } /* Header/logo Title */ 
  .header {   padding: 10px;   text-align: center;   background: white;   color: #58257b; } 
  .header h1 {   font-size: 40px; } .header p {   font-size: 20px; } /* Định dạng navigation bar */ 
  .menu {   display: flex;   background-color: #58257b; } /* Định dạng link điều hướng */ 
@@ -9,7 +9,8 @@
  .side1 {   flex: 30%;   background-color: #f1f1f1;   padding: 20px; width: 50px;} /* Cột chính */ 
  .side2 {   flex: 70%;   background-color: white;   padding: 20px; } /* Hình ảnh tượng trưng */ 
  .image {   background-color: #baa1cc;   width: 100%;   padding: 20px; } /* Footer */ 
- .image1 {   background-color: #baa1cc;   width: 100%;   padding: 20px;} /* Footer */ 
+ .image1 {   background-color: #baa1cc;   width: 100%;   padding: 20px; } /* Footer */ 
  .footer {   padding: 10px;   text-align: center;   background: white;   margin-top: 10px; } /* Bố cục linh hoạt: các cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình  có chiều rộng dưới 600px */ 
- @media screen and (max-width: 600px) {   .row, .navbar {     flex-direction: column; } } 
+ @media screen and (max-width: 767px) {   .slide1, .slide2 {     flex-direction: column;} } 
+
  

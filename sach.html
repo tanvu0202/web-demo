@@ -1,0 +1,183 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        .header img {
+            width: 100%;
+            height: auto;
+        }
+        .nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        .nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+            color: black;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            padding: 20px;
+        }
+        .content {
+            width: 75%;
+            padding: 20px;
+        }
+        .login-form, .categories {
+            border: 1px solid #820000;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .login-form h3, .categories h3 {
+            background-color: #8B0000;
+            color: white;
+            padding: 5px;
+            margin: 0;
+        }
+        .login-form input[type="text"], .login-form input[type="password"] {
+            width: 92%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ff0000;
+        }
+        .login-form input[type="submit"] {
+            background-color: #800080;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .categories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .categories ul li {
+            padding: 5px 0;
+        }
+        .categories ul li a {
+            color: #0000FF;
+            text-decoration: none;
+        }
+        .categories ul li a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .book-item {
+            border: 1px solid #8B0000;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .book-item h4 {
+            color: #8B0000;
+            margin: 0;
+        }
+        .book-item .rating {
+            color: #FFD700;
+        }
+        .book-item p {
+            margin: 10px 0;
+        }
+        .author,.date {
+            text-align: right;
+        }
+        @media all and (min-width: 320px) {
+body {
+   background: #e7e7e7;
+   color: #333333;
+}
+}
+  </style>
+ </head>
+ <body>
+    <div class="header">
+        <img height="200" src="banner960x198.jpg" width="800"/>
+    </div>
+    <div class="nav">
+<a style="margin-left: 600px;">Home</a>
+        <a>About</a>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="login-form">
+                <h3>LOGIN FORM</h3>
+                <form>
+                    <input placeholder="Username" type="text"/>
+                    <input placeholder="Password" type="password"/>
+                    <input type="submit" value="Sign in"/>
+                </form>
+            </div>
+            
+            <div class="categories">
+            <h3>CATEGORIES</h3>
+            <ul>
+                <li>
+                    <a>All</a>
+                </li>
+                <li>
+                    <a>Children Books</a>
+                </li>
+                <li>
+                    <a>Business Books</a>
+                </li>
+                <li>
+                    <a>Literature Books</a>
+                </li>
+                <li>
+                    <a>Music Books</a>
+                </li>
+                <li>
+                    <a>Technology Books</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h2 style="color: #0000FF;">Business Books</h2>
+            <div class="book-item">
+                <h4>Trump University - Branding 101</h4>
+                <img src="5star.png" style="width: 100px; margin-top: 10px">
+                <p>Trump University books are practical, straightforward primers on the basics of doing business the Trump way-successfully. Each book is written by a leading expert in the field and includes an inspiring Foreword by Trump himself. Key ideas throughout are illustrated by real-life examples from Trump and</p>
+                <p class="author"><b>Tác giả:</b> Donald J. Trump</p>
+                <p class="date"><b>Ngày phát hành:</b> 4/6/2020</p>
+            </div>
+
+            <div class="book-item">
+                <h4>Đắc nhân tâm</h4>
+                <p>Đắc nhân tâm là một trong những cuốn sách mà bất cứ ai khi bắt đầu khởi nghiệp đều đã đọc qua. Đây là cuốn sách đứng đầu danh mục bán chạy nhất, là cuốn sách đầu tiên và hay nhất mọi thời đại, có tầm ảnh hưởng làm thay đổi cuộc đời của hàng triệu người trên thế giới, sự thành công phục thuộc 30% năng lực và 70% là thái độ, chính vì vậy thái độ tốt và tinh tế cũng cần thiết để tạo sự thành công</p>
+                <p class="author"><b>Tác giả:</b> Phạm Phước Trịnh</p>
+                <p class="date"><b>Ngày phát hành:</b> 17/6/2016</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
